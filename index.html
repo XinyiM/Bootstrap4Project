@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Ristorante Con Fusion</title>
+    <script>
+        function myFunction(){
+            document.getElementById("reservetable").scrollIntoView()
+        }
+        </script>
 </head>
 
 <body>
@@ -46,7 +51,7 @@
                     <img src="img/logo.png"class="image-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <button type="button" class="btn btn-warning btn-lg btn-block">Reserve</button>
+                    <button onclick="myFunction()" type="button" class="btn btn-warning btn-lg btn-block">Reserve</button>
                 </div>
             </div>
         </div>
@@ -114,7 +119,7 @@
 
         <div class="row row-content justify-content-center">
             <div class="col-12 col-sm-8">
-                <div class="card">
+                <div class="card"id="reservetable">
                     <h3 class="card-header bg-warning text-white">Reserve Table </h3>
                     <div class="card-body">
                         <form>
