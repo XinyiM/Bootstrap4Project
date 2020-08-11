@@ -62,3 +62,10 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+.modal-header{
+    background-color: #512Da8;
+}
+
+.modal-body{
+    background-color: #d1c4e9;
+}
